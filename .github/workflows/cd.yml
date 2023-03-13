@@ -30,7 +30,8 @@ jobs:
       - run: pnpm install
       # https://github.com/semantic-release/git/issues/209
       - run: pnpm run build
-      - run: npx semantic-release
+      - name: 'Release'
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
