@@ -1,11 +1,19 @@
 {
-  "name": "github-action",
+  "name": "@art-test/learn-git-action",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semantic-release"
+  },
+  "bugs": {
+    "url": "https://github.com/Artsmp/github-action-learn/issues"
+  },
+  "homepage": "https://github.com/Artsmp/github-action-learn",
   "packageManager": "pnpm@7.29.1",
   "version": "1.0.0",
   "description": "",
