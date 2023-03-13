@@ -3,3 +3,4 @@ const sum = (a: number, b: number): number => {
 };
 
 console.log(sum(1, 2));
+console.log(sum(3, 4));
