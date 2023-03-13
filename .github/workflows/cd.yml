@@ -13,7 +13,7 @@ jobs:
   changelog:
     name: Changelog PR or Realease
     # 这里判断仓库owner是否是我自己，为了避免别人 fork 仓库触发，请自行修改
-    if: ${{ github.repository_owner == 'liruifengv' }}
+    if: ${{ github.repository_owner == 'Artsmp' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
